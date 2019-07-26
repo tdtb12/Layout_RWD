@@ -1,10 +1,11 @@
 {
-  "homepage": "https://tdtb12.github.io/LayoutPractice",
+  "homepage": "https://tdtb12.github.io/Layout_RWD",
   "name": "layout",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "gh-pages": "^2.0.1",
+    "jquery": "^3.4.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"

@@ -9,12 +9,15 @@ class Navbar extends Component {
     if (this.state.className === "nav-links links-In") {
       this.setState({ className: "nav-links" }); //if the social media links already shown then swap it out
       links.forEach(link => (link.style.animation = ""));
+      document.querySelector(".background").style.animation = "";
     } else {
-      this.setState({ className: "nav-links links-In" });
+      this.setState({ className: "nav-links links-In" }); //show social media links
       links.forEach((link, index) => {
         link.style.animation = `navLinkFade 0.4s ease forwards ${index / 7 +
           1}s`;
       });
+      document.querySelector(".background").style.animation =
+        "backgroundShrink 0.4s ease-in forwards";
     }
   }
   render() {
@@ -33,23 +36,23 @@ class Navbar extends Component {
         <div style={{ marginRight: "30%", fontSize: "1.5vw" }}>SAMPLE SITE</div>
         <img
           className="socialMedia"
-          src="/img/more.png"
+          src="./img/more.png"
           alt="social media"
           style={{ width: "5%" }}
           onClick={() => this.showSocialMedia()}
         />
         <div className={this.state.className}>
           <a href="#">
-            <img src="/img/twitter.png" alt="twitter" />
+            <img src="./img/twitter.png" alt="twitter" />
           </a>
           <a href="#">
-            <img src="/img/facebook.png" alt="facebook" />
+            <img src="./img/facebook.png" alt="facebook" />
           </a>
           <a href="#">
-            <img src="/img/youtube.png" alt="youtube" />
+            <img src="./img/youtube.png" alt="youtube" />
           </a>
           <a href="#">
-            <img src="/img/instagram.png" alt="instagram" />
+            <img src="./img/instagram.png" alt="instagram" />
           </a>
         </div>
       </div>

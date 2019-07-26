@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./components/navbar";
 import MainContainer from "./components/mainContainer";
+
 function App() {
   return (
     <React.Fragment>
