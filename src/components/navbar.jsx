@@ -36,23 +36,35 @@ class Navbar extends Component {
         <div style={{ marginRight: "30%", fontSize: "1.5vw" }}>SAMPLE SITE</div>
         <img
           className="socialMedia"
-          src="./img/more.png"
+          src={process.env.PUBLIC_URL + "/img/more.png"}
           alt="social media"
           style={{ width: "5%" }}
           onClick={() => this.showSocialMedia()}
         />
         <div className={this.state.className}>
           <a href="#">
-            <img src="./img/twitter.png" alt="twitter" />
+            <img
+              src={process.env.PUBLIC_URL + "/img/twitter.png"}
+              alt="twitter"
+            />
           </a>
           <a href="#">
-            <img src="./img/facebook.png" alt="facebook" />
+            <img
+              src={process.env.PUBLIC_URL + "/img/facebook.png"}
+              alt="facebook"
+            />
           </a>
           <a href="#">
-            <img src="./img/youtube.png" alt="youtube" />
+            <img
+              src={process.env.PUBLIC_URL + "/img/youtube.png"}
+              alt="youtube"
+            />
           </a>
           <a href="#">
-            <img src="./img/instagram.png" alt="instagram" />
+            <img
+              src={process.env.PUBLIC_URL + "/img/instagram.png"}
+              alt="instagram"
+            />
           </a>
         </div>
       </div>

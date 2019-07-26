@@ -13,28 +13,28 @@ class Footer extends Component {
             alignItems: "flex-start"
           }}
         >
-          <a id="topButton" href="#navbar" class="japaneseTextTitle">
+          <a id="topButton" href="#navbar" className="japaneseTextTitle">
             TOP
           </a>
-          <a href="#news" class="japaneseTextTitle">
+          <a href="#news" className="japaneseTextTitle">
             NEWS
           </a>
-          <a href="#media" class="japaneseTextTitle">
+          <a href="#media" className="japaneseTextTitle">
             MEDIA
           </a>
-          <a href="#live" class="japaneseTextTitle">
+          <a href="#live" className="japaneseTextTitle">
             LIVE
           </a>
-          <a href="#about" class="japaneseTextTitle">
+          <a href="#about" className="japaneseTextTitle">
             ABOUT
           </a>
-          <a href="#discography" class="japaneseTextTitle">
+          <a href="#discography" className="japaneseTextTitle">
             DISCOGRAPHY
           </a>
-          <a href="#" class="japaneseTextTitle">
+          <a href="#" className="japaneseTextTitle">
             MAIL MAGZINE
           </a>
-          <a href="mailto:tdtb12@gmail.com" class="japaneseTextTitle">
+          <a href="mailto:tdtb12@gmail.com" className="japaneseTextTitle">
             CONTACT
           </a>
         </div>

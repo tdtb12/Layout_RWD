@@ -15,7 +15,11 @@ class ReleaseInfo extends Component {
             ————　　　READ MORE
           </a>
         </div>
-        <img src="./img/release.png" alt="release" style={{ width: "30%" }} />
+        <img
+          src={process.env.PUBLIC_URL + "/img/release.png"}
+          alt="release"
+          style={{ width: "30%" }}
+        />
       </div>
     );
   }

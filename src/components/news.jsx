@@ -24,18 +24,18 @@ class News extends Component {
         <div id="media">
           <p style={{ fontSize: "2vw" }}>MEDIA</p>
           <a href="#">————　　MORE</a>
-          <a href="#" class="newsDescription">
+          <a href="#" className="newsDescription">
             テキストテキストテキストテキスト
           </a>
           <p>2018.11.29</p>
-          <a href="#" class="newsDescription">
+          <a href="#" className="newsDescription">
             テキストテキストテキストテキストテキストテ キスト
           </a>
-          <p class="newsDescription">2018.11.21</p>
-          <a href="#" class="newsDescription">
+          <p className="newsDescription">2018.11.21</p>
+          <a href="#" className="newsDescription">
             テキストテキストテキストテキストテキストテ キストテキストテキスト
           </a>
-          <p class="newsDescription">2018.8.31</p>
+          <p className="newsDescription">2018.8.31</p>
         </div>
       </div>
     );

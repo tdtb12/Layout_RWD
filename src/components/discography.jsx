@@ -15,7 +15,7 @@ class Discography extends Component {
               >
                 <a href="#">
                   <img
-                    src="./img/release.png"
+                    src={process.env.PUBLIC_URL + "/img/release.png"}
                     alt="release"
                     style={{
                       maxWidth: "100%"
@@ -26,14 +26,14 @@ class Discography extends Component {
               <div className="col" style={{ flex: "25%", maxWidth: "25%" }}>
                 <a href="#">
                   <img
-                    src="./img/Discography_2.png"
+                    src={process.env.PUBLIC_URL + "/img/Discography_2.png"}
                     alt="2"
                     style={{ maxWidth: "100%" }}
                   />
                 </a>
                 <a href="#">
                   <img
-                    src="./img/Discography_3.png"
+                    src={process.env.PUBLIC_URL + "/img/Discography_3.png"}
                     alt="3"
                     style={{ maxWidth: "100%" }}
                   />
@@ -44,12 +44,12 @@ class Discography extends Component {
           <div className="musicVideo">
             <div className="photo">
               <img
-                src="./img/MUSIC_VIDEO.png"
+                src={process.env.PUBLIC_URL + "/img/MUSIC_VIDEO.png"}
                 alt="music video"
                 style={{ width: "100%" }}
               />
             </div>
-            <p class="musicInfo" style={{ alignSelf: "flex-end" }}>
+            <p className="musicInfo" style={{ alignSelf: "flex-end" }}>
               MUSIC VIDEO
             </p>
             <a href="#">MORE→</a>
@@ -104,7 +104,7 @@ class Discography extends Component {
                 <p class="japaneseTextTitle">
                   テキストテキストテキスト
                   <br />
-                  <span class="japaneseTextSubTitle">
+                  <span className="japaneseTextSubTitle">
                     テキストテキストテキストテキスト
                   </span>
                 </p>
@@ -114,11 +114,11 @@ class Discography extends Component {
                 {/*disable margin-bottom prevent overflow */}
                 <p className="year">2018</p>
                 <p className="date">10.06</p>
-                <div class="saturday">SAT</div>
+                <div className="saturday">SAT</div>
                 <p className="japaneseTextTitle">
                   テキストテキストテキストテキスト
                   <br />
-                  <span class="japaneseTextSubTitle">
+                  <span className="japaneseTextSubTitle">
                     テキストテキストテキストテキスト
                   </span>
                 </p>
