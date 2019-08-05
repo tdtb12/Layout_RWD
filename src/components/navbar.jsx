@@ -31,7 +31,11 @@ class Navbar extends Component {
             <div style={{ width: "1.25vw" }} />
           </a>
         </div>
-        <Link to="/" exact style={{ marginRight: "3%", fontSize: "2.5vw" }}>
+        <Link
+          to="/Layout_RWD/"
+          exact
+          style={{ marginRight: "3%", fontSize: "2.5vw" }}
+        >
           SITE NAME
         </Link>
         <div style={{ marginRight: "30%", fontSize: "1.5vw" }}>SAMPLE SITE</div>
