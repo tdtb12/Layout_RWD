@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 class Navbar extends Component {
   state = {
@@ -30,9 +31,9 @@ class Navbar extends Component {
             <div style={{ width: "1.25vw" }} />
           </a>
         </div>
-        <a href="#" style={{ marginRight: "3%", fontSize: "2.5vw" }}>
+        <Link to="/" exact style={{ marginRight: "3%", fontSize: "2.5vw" }}>
           SITE NAME
-        </a>
+        </Link>
         <div style={{ marginRight: "30%", fontSize: "1.5vw" }}>SAMPLE SITE</div>
         <img
           className="socialMedia"

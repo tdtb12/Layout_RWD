@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 class ReleaseInfo extends Component {
   render() {
@@ -11,9 +12,9 @@ class ReleaseInfo extends Component {
             2019.3.21 テキストテキストテキストテキスト
           </p>
           <p style={{ fontSize: "1vw" }}>AAAA-1234 ¥3,000+tax</p>
-          <a href="#" style={{ font: "1vw bold", alignSelf: "flex-end" }}>
+          <Link to="/releaseDetail" style={{ font: "1vw bold", alignSelf: "flex-end" }}>
             ————　　　READ MORE
-          </a>
+          </Link>
         </div>
         <img
           src={process.env.PUBLIC_URL + "/img/release.png"}
