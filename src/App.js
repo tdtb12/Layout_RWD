@@ -9,8 +9,8 @@ function App() {
     <React.Fragment>
       <Navbar />
 
-      <Route path="/" exact component={MainContainer} />
-      <Route path="/releaseDetail" component={ReleaseDetail} />
+      <Route path="/Layout_RWD/" exact component={MainContainer} />
+      <Route path="/Layout_RWD/releaseDetail" component={ReleaseDetail} />
     </React.Fragment>
   );
 }

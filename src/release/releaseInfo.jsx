@@ -12,7 +12,10 @@ class ReleaseInfo extends Component {
             2019.3.21 テキストテキストテキストテキスト
           </p>
           <p style={{ fontSize: "1vw" }}>AAAA-1234 ¥3,000+tax</p>
-          <Link to="/releaseDetail" style={{ font: "1vw bold", alignSelf: "flex-end" }}>
+          <Link
+            to="/Layout_RWD/releaseDetail"
+            style={{ font: "1vw bold", alignSelf: "flex-end" }}
+          >
             ————　　　READ MORE
           </Link>
         </div>
